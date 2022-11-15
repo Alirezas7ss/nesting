@@ -1,0 +1,111 @@
+.cvContainer {
+  padding: 9%;
+  padding-top: 4%;
+  position: relative;
+  overflow-x: hidden;
+}
+.textContainer{
+  width: 100%;
+  position: absolute;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: 2.5fr 0.2fr 3fr;
+  padding-top: 4%;
+}
+.leftText p{
+  padding-top: 7vw;
+  padding-left: 6vw;
+  line-height: 2.5em;
+  font-size: 1.2vw;
+  color: #2c2c6c;
+
+}
+.cvContainer span {
+  font-size: 2vw;
+}
+.line {
+  display: inline;
+  margin: 0px;
+  
+}
+.line h1 {
+  transform: scale(.5, 4);
+  padding-top: 60%;
+  color: blue;
+  
+}
+.rightText a{
+  color: rgb(62, 62, 246);
+}
+.rightText a:hover{
+  color: rgb(2, 46, 118);
+}
+.rightText p {
+   padding-right:50% ;
+   padding-top: 10vw;
+   line-height: 2.5em;
+   font-size: 1.2vw;
+   color: #2c2c6c;
+
+}
+.rightText div  {
+  font-size: 1.3vw;
+  padding-top: 3vw;
+  color: #2c2c6c;
+  
+}
+
+.textContainer h1 {
+  padding-left: 35%;
+  font-size: 5.5vw;
+  margin: 0px;
+  color: rgb(4, 104, 176);
+
+}
+.textContainer h2 {
+  margin: 0px;
+  padding-left: 30%;
+  font-size: 5.5vw;
+  color: rgb(4, 104, 176);
+} 
+
+
+.cvContainer img {
+
+  align-items: center;
+  
+}
+.downloadCv {
+  background-color: aqua;
+  border-radius: 2px;
+  padding: 1vw;
+  margin-left: 77vw;
+  z-index: 30;
+  font-size: 1.1vw;
+  position: fixed;
+}
+.linkHome {
+  background-color: aqua;
+  border-radius: 2px;
+  padding: 1vw;
+  z-index: 30;
+  font-size: 1.1vw;
+  margin-bottom: 10vw;
+  position: fixed;
+}
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+
+
+
+
